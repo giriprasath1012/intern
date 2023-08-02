@@ -1,0 +1,151 @@
+
+
+.Head{
+  background-color: #daf4fb;
+  border: 2px solid darkcyan;
+  vertical-align: auto;
+  height: 85px;
+  display: flex;
+  
+  border-radius: 10px;
+}
+.option
+{
+  background-color: #daf4fb;
+  align-items: center;
+}
+.img2{
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 3px;
+  height: 80px;
+}
+
+
+.home{
+  background-color: #f7d7ff;
+  margin-left: 40px;
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  font-family: Arima;
+  font-weight: 800;
+  border-radius: 10px;
+ 
+}
+.contact{
+  background-color: #f7d7ff;
+  margin-left: 40px;
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  font-family: Arima;
+  font-weight: 800;
+  border-radius: 10px;
+
+}
+.about{
+  background-color: #f7d7ff;
+  margin-left: 40px;
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  font-family:Arima;
+  font-weight: 800;
+  border-radius: 10px;
+
+}
+
+.home:hover{
+  background-color: cadetblue;
+}
+
+.contact:hover{
+  background-color: cadetblue;
+}
+
+.about:hover{
+  background-color: cadetblue;
+}
+
+.img2:hover{
+  opacity: 0.8;
+}
+
+
+
+/*@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: black ;
+  border-radius: 5px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; 
+  background-attachment: scroll;
+}
+
+.topic{
+  color: cyan;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-style: italic;
+  
+ 
+}
+.App-logo {
+
+  height: auto;
+  width:auto;
+  animation-name: App-logo-zoom;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes App-logo-zoom {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+.b1{
+  background-color: aqua;
+  border-radius: 15px;
+  font-size: 30px;
+  font-family: Alice;
+  border : 1px solid red;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.b1:hover{
+  border: 1px solid aqua;
+  background-color: darkgray;
+}
+
+.t2{
+  font-family: Times New Roman;
+  font-size:30px;
+  font-style: oblique;
+  color: brown;
+} 
+
+.App-link {
+  font-family: Alice;
+  color: #61dafb;
+}
+
